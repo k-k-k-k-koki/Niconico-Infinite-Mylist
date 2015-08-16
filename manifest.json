@@ -1,0 +1,24 @@
+{
+  "name" : "Niconico Infinite Mylist",
+  "version" : "0.1",
+  "manifest_version": 2,
+
+  "description":"ニコニコ動画で気に入った動画を好きなだけマイリストに保存できます",
+  
+  "permissions":[
+    "tabs","http://*/*",
+    "storage",
+    "unlimitedStorage"
+    ],
+
+    "background":{
+      "page":"background.html"
+    },
+
+
+  "browser_action":{
+    "default_icon":"icon.png",
+    "default_title":"Niconico Infinite Mylist",
+    "default_popup":"popup.html"
+  }
+}
